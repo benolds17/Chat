@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" content="width=device-width, initial-scale=1">
+        <title>Chatting Application</title>
+        <script src="Scripts/Main.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="Css/DefaultStyle.css">
+    </head>
+
+    <body>
+
+        <!--Task bar div-->
+        <div data-role="navbar" id="divTaskbar" class="taskbar">
+            <h4 class="taskbarText">Chat Application</h4>
+        </div>
+
+        <div id="chat">
+            <div id="chat-messages">
+
+                <form id="chat-form" method="post">
+                    <input type="text" name="message" placeholder="Enter a message..." maxlength="500" autocomplete="off">
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+
+    </body>
+
+</html>
